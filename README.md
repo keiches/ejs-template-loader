@@ -4,6 +4,8 @@
 
 To use EJS by mde use 2.x branch and 2.x.x versions.
 
+*** __Forked from [ejs-file-loader](https://github.com/pinkahd/ejs-loader.git)__ ***
+
 ## Installation
 
 `npm install --save-dev ejs-template-loader`
@@ -37,17 +39,19 @@ Following options can be specified in query:
 ## Examples for html minify
 
 ```javascript
-module: {
-  loaders: [
-    {test: /\.ejs$/, loader: 'ejs-file-loader?htmlmin'} // enable here
-  ]
-},
-'ejs-template-loader': {
-  'htmlmin': true, // or enable here
-  'htmlminOptions': {
-    removeComments: true
+const webpackConfigs = {
+  module: {
+    loaders: [
+      {test: /\.ejs$/, loader: 'ejs-file-loader?htmlmin'} // enable here
+    ]
+  },
+  'ejs-template-loader': {
+    'htmlmin': true, // or enable here
+    'htmlminOptions': {
+      removeComments: true
+    }
   }
-}
+};
 ```
 
 See [all options reference](https://github.com/kangax/html-minifier#options-quick-reference)

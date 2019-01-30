@@ -1,0 +1,28 @@
+{
+  "name": "ejs-template-loader",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Kim",
+    "email": "keiches@gmail.com"
+  },
+  "license": "MIT",
+  "description": "EJS loader for webpack. Uses EJS function to compile templates to string.",
+  "main": ".npm-init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://keiches@github.com/keiches/ejs-template-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "ejs",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/keiches/ejs-template-loader/issues"
+  },
+  "homepage": "https://github.com/keiches/ejs-template-loader#readme"
+}
